@@ -1,0 +1,58 @@
+body{
+    background-color: #03203C;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    /* gap: 10px; */
+}
+.NewPost{
+    background-color:#01b96b;
+    text-align: center;
+    width:110px ;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 3px;
+
+  }
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+.search-bar{
+    /* flex:1; */
+    width: 550px;
+    height: 36px;
+    background-color: #2e3035;
+    border: 1px solid black;
+    border-radius:5px ;
+}
+.search-bar>form>input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    background-color: #2e3035;
+}
+.search-bar>form>button{
+    /* margin-top: 4px; */
+    text-align:center;
+    width: 5%;
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+.search-bar>form>button>i{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: transparent;
+}
